@@ -10,6 +10,6 @@ Lacap, Kiara Marie;
 Lindayag, Rayshanne;
 Llantada, Jass;
 Quiray, Alyanna Regina;
-Reodica, Richelda Mae
+Reodica, Richelda Mei
 
 Text-based Exam Reviewer
