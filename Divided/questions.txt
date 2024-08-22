@@ -1,0 +1,36 @@
+[
+    {
+        "question_text": "The 'Mano' gesture is a sign of respect...",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "Which of the following is considered the national hero...",
+        "correct_answer": "Jose Rizal",
+        "category": "Filipino Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Jose Rizal",
+            "Andres Bonifacio",
+            "Emilio Aguinaldo"
+        ]
+    },
+    {
+        "question_text": "The capital city of the Philippines is Quezon City.",
+        "correct_answer": "False",
+        "category": "Philippine Geography",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "Who is known as the 'King of Philippine Movies'?",
+        "correct_answer": "Fernando Poe Jr.",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Dolphy",
+            "Fernando Poe Jr.",
+            "Nora Aunor"
+        ]
+    }
+]
