@@ -8,7 +8,8 @@ class MultipleChoiceQuestion(Question):
     def display_question(self):
         print(f"\n{self.question_text}")
         for i, option in enumerate(self.options):
-            print(f"{i}: {option}")
+            letter = chr(65 + i)
+            print(f"{letter}: {option}")
     
     def check_answer(self, answer):
         try:
