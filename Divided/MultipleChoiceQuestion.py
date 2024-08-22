@@ -13,7 +13,8 @@ class MultipleChoiceQuestion(Question):
     
     def check_answer(self, answer):
         try:
-            selected_option = self.options[int(answer)]
+            index = ord(answer.upper()) - 65
+            selected_option = self.options[index]
             return selected_option == self.correct_answer
         except (ValueError, IndexError):
             return False
