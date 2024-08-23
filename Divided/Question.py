@@ -21,13 +21,20 @@ class Question(ABC):
         pass    # Empty method for the abstract
 
     @abstractmethod
+    """
+    Abstract method that checks if the user’s answer is correct
+    """
     def check_answer(self, answer):
-        pass
+        pass    # Empty method for the abstract
 
     def to_dict(self):
+    """
+    Creates a dictionary containing the properties of each question         
+    """
+
         return {
-            "question_text": self.question_text,
-            "correct_answer": self.correct_answer,
-            "category": self.category,
-            "type": self.__class__.__name__
+            "question_text": self.question_text,       # The question itself
+            "correct_answer": self.correct_answer,     # The correct answer    
+            "category": self.category,                 # The topic category
+            "type": self.__class__.__name__            # The type of question, multiple choice or true/false.
         }
