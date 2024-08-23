@@ -59,6 +59,18 @@ def main():
             MultipleChoiceQuestion("Which Filipino fashion designer is known for dressing international celebrities like Beyoncé and Jennifer Lopez?", ["Rajo Laurel", "Michael Cinco", "Monique Lhuilier"], "Michael Cinco", "Filipino Pop Culture"),
 
             # Philippine Geography
+
+            # 11-20
+            MultipleChoiceQuestion("Mount Apo, the highest peak in the Philippines, is located in which island?", ["Luzon", "Visayas", "Mindanao"], "Mindanao", "Landmarks and Natural Features"),
+            TrueFalseQuestion("The Taal Volcano is located within a lake in the province of Batangas.", "True", "Landmarks and Natural Features"),
+            MultipleChoiceQuestion("Which island in the Philippines is known for its white sand beaches and is a popular tourist destination?", ["Boracay", "Siargao", "Camiguin"], "Boracay", "Landmarks and Natural Features"),
+            MultipleChoiceQuestion("The Hundred Islands National Park is located in which province?", ["Pangasinan", "Zambales", "La Union"], "Pangasinan", "Landmarks and Natural Features"),
+            TrueFalseQuestion("The Puerto Princesa Subterranean River is one of the New 7 Wonders of Nature.", "True", "Landmarks and Natural Features"),
+            TrueFalseQuestion("The Philippines is part of the Pacific Ring of Fire, making it prone to earthquakes and volcanic eruptions.", "True", "Natural Resources and Climate"),
+            TrueFalseQuestion("The Philippines has a tropical maritime climate, characterized by high temperatures, high humidity, and abundant rainfall.", "True", "Natural Resources and Climate"),
+            MultipleChoiceQuestion("Which of the following is a major agricultural product of the Philippines?", ["Rice", "Wheat", "Barley"], "Rice", "Natural Resources and Climate"),
+            TrueFalseQuestion("The Sierra Madre is the longest mountain range in the Philippines.", "True", "Natural Resources and Climate"),
+            MultipleChoiceQuestion("Which Philippine island is the largest by land area?", ["Luzon", "Mindanao", "Samar"], "Luzon", "Natural Resources and Climate")
         
         ]
         exam_reviewer = ExamReviewer(questions)
