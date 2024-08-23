@@ -84,7 +84,9 @@ class Student:
     def view_performance_history(self):
         print(f"Performance history for {self.name}:")
         for i, report in enumerate(self.history, 1):
-            print(f"Session {i}: {report}")
+            print(f"-- Session {i} --")
+            for key, value in report.items():
+                print (f"{key}: {value}")
     
     def save_answers_to_file(self, filename="student_answers.txt"):
         with open(filename, "w") as f:
