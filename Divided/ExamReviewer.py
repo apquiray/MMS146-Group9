@@ -18,7 +18,27 @@ class ExamReviewer:
         return random.sample(filtered_questions, min(num_questions, len(filtered_questions)))
 
     def customize_session(self):
-        category = input("Select a Topic (Philippine Geography, Filipino Pop Culture, Filipino Culture): ").strip()
+        category_map = {
+            "1": "Philippine Geography",
+            "2": "Filipino Pop Culture",
+            "3": "Filipino Culture"
+        }
+
+        print("Select a Topic:")
+        print("1. Philippine Geography")
+        print("2. Filipino Pop Culture")
+        print("3. Filipino Culture")
+
+        while True:
+            category_choice = input("Please enter the number corresponding to your category: ").strip()
+
+            # Validate the user's input. If wrong, make the user enter a valid input again
+            if category_choice in category_map:
+                category = category_map[category_choice]
+                break
+            else:
+                print("Invalid category choice. Please only enter values among 1, 2, 3.")
+
         num_questions = int(input("Number of Questions: ").strip())
         time_limit = int(input(f"Set a time limit in seconds for each question (Max {MAX_TIME_LIMIT} seconds): ").strip())
         if time_limit > MAX_TIME_LIMIT:
