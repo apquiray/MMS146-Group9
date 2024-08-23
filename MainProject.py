@@ -78,8 +78,11 @@ class Student:
             "Score": f"{correct}/{total}",
             "Percentage": f"{percentage:.2f}%"
         }
+        print ()
+        print ("-- Score Summary --")
+        for key, value in report.items():
+            print (f"{key:20}: {value}")
         self.history.append(report)
-        print(report)
 
     def view_performance_history(self):
         print(f"\nPerformance history for {self.name}:")
