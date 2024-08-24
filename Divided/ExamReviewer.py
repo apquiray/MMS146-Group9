@@ -24,7 +24,7 @@ class ExamReviewer:
             "3": "Filipino Culture"
         }
 
-        print("Select a Topic:")
+        print("\nSelect a Topic:")
         print("1. Philippine Geography")
         print("2. Filipino Pop Culture")
         print("3. Filipino Culture")
@@ -32,13 +32,12 @@ class ExamReviewer:
         while True:
             category_choice = input("Please enter the number corresponding to your category: ").strip()
 
-            # Validate the user's input. If wrong, make the user enter a valid input again
+            # Validate the user's input, if wrong, make the user enter a valid input again
             if category_choice in category_map:
                 category = category_map[category_choice]
                 break
             else:
                 print("Invalid category choice. Please only enter values among 1, 2, 3.")
-
         num_questions = int(input("Number of Questions: ").strip())
         time_limit = int(input(f"Set a time limit in seconds for each question (Max {MAX_TIME_LIMIT} seconds): ").strip())
         if time_limit > MAX_TIME_LIMIT:
@@ -48,34 +47,25 @@ class ExamReviewer:
 
     def start_review(self, student, category, num_questions, time_limit):
         questions = self.generate_random_questions(num_questions, category)
+        start_time = time.time()
 
         for i, question in enumerate(questions):
-            print(f"\nQuestion {i + 1}/{len(questions)}:")
-            start_time = time.time()
+            elapsed_time = time.time() - start_time
+            if elapsed_time > (i + 1) * time_limit:
+                print("\nTime's up for this question!\n")
+                student.save_answer(i, "")  # Save an empty answer for unanswered questions
+                continue
+
             question.display_question()
-
-            while True:
-                elapsed_time = time.time() - start_time
-                remaining_time = max(0, time_limit - elapsed_time)
-                print(f"Time remaining: {int(remaining_time)} seconds", end='\r')
-
-                if remaining_time <= 0:
-                    print("\nTime's up for this question!\n")
-                    student.save_answer(i, "")  # Save an empty answer for unanswered questions
-                    break
-
-                if input("Your Answer: ").strip():
-                    answer = input("Your Answer: ").strip()
-                    student.save_answer(i, answer)
-                    break
-
-            time.sleep(1)  # To ensure the loop doesn't run too quickly
+            answer = input("Your Answer: ").strip()
+            student.save_answer(i, answer)
 
         student.get_performance_report(questions)
 
     def save_questions_to_file(self, filename="questions.txt"):
         with open(filename, "w") as f:
             json.dump([q.to_dict() for q in self.questions], f, indent=4)
+
 
     def load_questions_from_file(self, filename="questions.txt"):
         with open(filename, "r") as f:
