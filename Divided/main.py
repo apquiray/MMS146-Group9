@@ -37,7 +37,7 @@ def main():
             # 11-20
             MultipleChoiceQuestion("The film 'Kita Kita' is a romantic comedy set in which country?", ["Japan", "Italy", "France"], "Japan", "Filipino Pop Culture"),
             MultipleChoiceQuestion("Who is the director of the critically acclaimed film 'Heneral Luna'?", ["Jerrold Tarog", "Lav Diaz", "Brillante Mendoza"], "Jerrold Tarog", "Filipino Pop Culture"),
-            MultipleChoiceQuestion("Who starred as the lead role in the 2018 film 'Goyo: Ang Batang Heneral'?",c["Enrique Gil", "Alden Richards", "Paulo Avelino"], "Paulo Avelino", "Filipino Pop Culture"),
+            MultipleChoiceQuestion("Who starred as the lead role in the 2018 film 'Goyo: Ang Batang Heneral'?", ["Enrique Gil", "Alden Richards", "Paulo Avelino"], "Paulo Avelino", "Filipino Pop Culture"),
             MultipleChoiceQuestion("The 2001 Filipino film 'Dekada '70' is based on a novel written by which author?", ["Lualhati Bautista", "F. Sionil José", "Ricky Lee"], "Lualhati Bautista", "Filipino Pop Culture"),
             TrueFalseQuestion("'Eat Bulaga!' is the longest-running noontime variety show in the Philippines.", True, "Filipino Pop Culture"),
             MultipleChoiceQuestion("Which Filipino TV drama featured the love team known as 'AlDub'?", ["Pangako Sa 'Yo", "Kalyeserye", "Mara Clara"], "Kalyeserye", "Filipino Pop Culture"),
