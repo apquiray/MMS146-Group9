@@ -20,21 +20,29 @@ class Question(ABC):
     """
         pass    # Empty method for the abstract
 
+    """
+    Abstract method that checks if the user's answer is correct
+        
+    This is done by comparing the user's answer to the correct answer specified in the code. 
+    This method has different implementations per subclass. 
+    """
     @abstractmethod
-    """
-    Abstract method that checks if the user’s answer is correct
-    """
     def check_answer(self, answer):
-        pass    # Empty method for the abstract
+        # The pass is an empty method that is made to be overridden by subclasses
+        pass 
 
+    """
+    A dictionary containing the attributes of the object question
+    Making it easier to store or retrieve information on the questions
+    """    
     def to_dict(self):
-    """
-    Creates a dictionary containing the properties of each question         
-    """
-
         return {
-            "question_text": self.question_text,       # The question itself
-            "correct_answer": self.correct_answer,     # The correct answer    
-            "category": self.category,                 # The topic category
-            "type": self.__class__.__name__            # The type of question, multiple choice or true/false.
+            # The question itself
+            "question_text": self.question_text, 
+             # The correct answer  
+            "correct_answer": self.correct_answer,  
+            # The topic category
+            "category": self.category,   
+            # The type of question, multiple choice or true/false.
+            "type": self.__class__.__name__            
         }
