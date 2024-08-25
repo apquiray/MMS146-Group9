@@ -39,10 +39,10 @@ def main():
             MultipleChoiceQuestion("Who is the director of the critically acclaimed film 'Heneral Luna'?", ["Jerrold Tarog", "Lav Diaz", "Brillante Mendoza"], "Jerrold Tarog", "Filipino Pop Culture"),
             MultipleChoiceQuestion("Who starred as the lead role in the 2018 film 'Goyo: Ang Batang Heneral'?", ["Enrique Gil", "Alden Richards", "Paulo Avelino"], "Paulo Avelino", "Filipino Pop Culture"),
             MultipleChoiceQuestion("The 2001 Filipino film 'Dekada '70' is based on a novel written by which author?", ["Lualhati Bautista", "F. Sionil José", "Ricky Lee"], "Lualhati Bautista", "Filipino Pop Culture"),
-            TrueFalseQuestion("'Eat Bulaga!' is the longest-running noontime variety show in the Philippines.", True, "Filipino Pop Culture"),
+            TrueFalseQuestion("'Eat Bulaga!' is the longest-running noontime variety show in the Philippines.", "True", "Filipino Pop Culture"),
             MultipleChoiceQuestion("Which Filipino TV drama featured the love team known as 'AlDub'?", ["Pangako Sa 'Yo", "Kalyeserye", "Mara Clara"], "Kalyeserye", "Filipino Pop Culture"),
             MultipleChoiceQuestion("'Ang Probinsyano,' starring Coco Martin, is based on a 1997 film by which actor?", ["Robin Padilla", "Fernando Poe Jr.", "Rudy Fernandez"], "Fernando Poe Jr.", "Filipino Pop Culture"),
-            TrueFalseQuestion("'Maalaala Mo Kaya' is a long-running drama anthology that features true stories of ordinary Filipinos.", True, "Filipino Pop Culture"),
+            TrueFalseQuestion("'Maalaala Mo Kaya' is a long-running drama anthology that features true stories of ordinary Filipinos.", "True", "Filipino Pop Culture"),
             MultipleChoiceQuestion("'FPJ's Ang Probinsyano' celebrated its 1000th episode in which year?", ["2018", "2019", "2020"], "2019", "Filipino Pop Culture"),
             MultipleChoiceQuestion("Which Filipino actress starred as 'Marimar' in the 2007 Philippine adaptation of the Mexican telenovela?", ["Marian Rivera", "Angel Locsin", "Anne Curtis"], "Marian Rivera", "Filipino Pop Culture"),
 
