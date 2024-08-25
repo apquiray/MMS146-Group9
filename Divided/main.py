@@ -77,15 +77,15 @@ def main():
             MultipleChoiceQuestion("Which Philippine island is the largest by land area?", ["Luzon", "Mindanao", "Samar"], "Luzon", "Philippine Geography")
 
             #21-30
-            TrueFalseQuestion("The Philippines experiences an average of 20 typhoons each year.", "True", "Philippine Geography")
-            MultipleChoiceQuestion("What is the primary source of energy in the Philippines?", ["Solar", "Wind", "Hydropower", "Geothermal"], "Geothermal", "Philippine Geography")
-            TrueFalseQuestion("The Philippines is one of the top producers of coconut products in the world.", "True", "Philippine Geography")
-            TrueFalseQuestion("Mount Mayon is known for its almost perfect cone shape.", "True", "Philippine Geography")
-            MultipleChoiceQuestion("What province is found in the northernmost part of the Philippines?", ["Ilocos", "Cagayan", "Zamboanga", "Batanes"], "Batanes", "Philippine Geography")
-            TrueFalseQuestion("The capital of Negros Oriental is Bacolod City.", "False", "Philippine Geography")
-            MultipleChoiceQuestion("What is the capital of the province of Cebu?", ["Lapu-Lapu City", "Mandaue City", "Cebu City", "Talisay City"], "Cebu City", "Philippine Geography")
-            TrueFalseQuestion("The island of Palawan is located in the Visayas region.", "False", "Philippine Geography")
-            MultipleChoiceQuestion("What is the oldest city in the Philippines?", ["Quezon City", "Cebu City", "Davao City", "Zamboanga City"], "Cebu City", "Philippine Geography")
+            TrueFalseQuestion("The Philippines experiences an average of 20 typhoons each year.", "True", "Philippine Geography"),
+            MultipleChoiceQuestion("What is the primary source of energy in the Philippines?", ["Solar", "Wind", "Hydropower", "Geothermal"], "Geothermal", "Philippine Geography"),
+            TrueFalseQuestion("The Philippines is one of the top producers of coconut products in the world.", "True", "Philippine Geography"),
+            TrueFalseQuestion("Mount Mayon is known for its almost perfect cone shape.", "True", "Philippine Geography"),
+            MultipleChoiceQuestion("What province is found in the northernmost part of the Philippines?", ["Ilocos", "Cagayan", "Zamboanga", "Batanes"], "Batanes", "Philippine Geography"),
+            TrueFalseQuestion("The capital of Negros Oriental is Bacolod City.", "False", "Philippine Geography"),
+            MultipleChoiceQuestion("What is the capital of the province of Cebu?", ["Lapu-Lapu City", "Mandaue City", "Cebu City", "Talisay City"], "Cebu City", "Philippine Geography"),
+            TrueFalseQuestion("The island of Palawan is located in the Visayas region.", "False", "Philippine Geography"),
+            MultipleChoiceQuestion("What is the oldest city in the Philippines?", ["Quezon City", "Cebu City", "Davao City", "Zamboanga City"], "Cebu City", "Philippine Geography"),
             MultipleChoiceQuestion("What is known as the surfing capital of the Philippines?", ["Boracay", "La Union", "Bohol", "Siargao"], "Siargao", "Philippine Geography")
         
         
