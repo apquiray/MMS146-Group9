@@ -74,7 +74,7 @@ def main():
             TrueFalseQuestion("The Philippines has a tropical maritime climate, characterized by high temperatures, high humidity, and abundant rainfall.", "True", "Philippine Geography"),
             MultipleChoiceQuestion("Which of the following is a major agricultural product of the Philippines?", ["Rice", "Wheat", "Barley"], "Rice", "Philippine Geography"),
             TrueFalseQuestion("The Sierra Madre is the longest mountain range in the Philippines.", "True", "Philippine Geography"),
-            MultipleChoiceQuestion("Which Philippine island is the largest by land area?", ["Luzon", "Mindanao", "Samar"], "Luzon", "Philippine Geography")
+            MultipleChoiceQuestion("Which Philippine island is the largest by land area?", ["Luzon", "Mindanao", "Samar"], "Luzon", "Philippine Geography"),
 
             #21-30
             TrueFalseQuestion("The Philippines experiences an average of 20 typhoons each year.", "True", "Philippine Geography"),
