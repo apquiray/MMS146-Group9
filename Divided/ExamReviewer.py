@@ -32,17 +32,34 @@ class ExamReviewer:
         while True:
             category_choice = input("Please enter the number corresponding to your category: ").strip()
 
-            # Validate the user's input, if wrong, make the user enter a valid input again
             if category_choice in category_map:
                 category = category_map[category_choice]
                 break
             else:
                 print("Invalid category choice. Please only enter values among 1, 2, 3.")
-        num_questions = int(input("Number of Questions: ").strip())
-        time_limit = int(input(f"Set a time limit in seconds for each question (Max {MAX_TIME_LIMIT} seconds): ").strip())
-        if time_limit > MAX_TIME_LIMIT:
-            print(f"Time limit is too high. Setting time limit to {MAX_TIME_LIMIT} seconds.")
-            time_limit = MAX_TIME_LIMIT
+
+        while True:
+            try:
+                num_questions = int(input("Number of Questions: ").strip())
+                if num_questions <= 0:
+                    print("Number of questions must be greater than 0. Please enter a valid number.")
+                elif num_questions > len(self.questions):
+                    print(f"Number of questions exceeds the available questions ({len(self.questions)}). Please enter a valid number.")
+                else:
+                    break
+            except ValueError:
+                print("Invalid input. Please enter a valid number.")
+
+        while True:
+            try:
+                time_limit = int(input(f"Set a time limit in seconds for each question (Max {MAX_TIME_LIMIT} seconds): ").strip())
+                if time_limit > MAX_TIME_LIMIT:
+                    print(f"Time limit is too high. Setting time limit to {MAX_TIME_LIMIT} seconds.")
+                    time_limit = MAX_TIME_LIMIT
+                break
+            except ValueError:
+                print("Invalid input. Please enter a valid number for the time limit.")
+
         return category, num_questions, time_limit
 
     def start_review(self, student, category, num_questions, time_limit):
@@ -65,7 +82,6 @@ class ExamReviewer:
     def save_questions_to_file(self, filename="questions.txt"):
         with open(filename, "w") as f:
             json.dump([q.to_dict() for q in self.questions], f, indent=4)
-
 
     def load_questions_from_file(self, filename="questions.txt"):
         with open(filename, "r") as f:
