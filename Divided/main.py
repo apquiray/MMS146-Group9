@@ -23,6 +23,7 @@ def main():
             # Add more questions to each category
 
             # Filipino Pop Culture
+            # This set of questions is about Philippine Pop Culture, covering Filipino music, film, television, and famous personalities.
 
             # 1-10
             TrueFalseQuestion("The song 'Anak' by Freddie Aguilar is one of the most popular Filipino songs globally.", "True", "Filipino Pop Culture"),
