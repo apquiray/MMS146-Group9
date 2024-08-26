@@ -4,7 +4,7 @@ class Question(ABC):
     """
     An abstract base class that represents the general quiz questions.
     It initializes the Question with its text (statement), the correct answer, and category.
-    """"
+    """
     def __init__(self, question_text, correct_answer, category):
         self.question_text = question_text
         self.correct_answer = correct_answer
