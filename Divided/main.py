@@ -65,6 +65,9 @@ def main():
 
             
             #This set of questions is about Philippine Geography, covering landmarks, natural features, and the general geography of the country.
+            # 1-10
+
+            
             #11-20
             MultipleChoiceQuestion("Mount Apo, the highest peak in the Philippines, is located in which island?", ["Luzon", "Visayas", "Mindanao"], "Mindanao", "Philippine Geography"),
             TrueFalseQuestion("The Taal Volcano is located within a lake in the province of Batangas.", "True", "Philippine Geography"),
