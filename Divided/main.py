@@ -65,7 +65,17 @@ def main():
 
             
             #This set of questions is about Philippine Geography, covering landmarks, natural features, and the general geography of the country.
-            # 1-10
+            #1-10
+            MultipleChoiceQuestion("The Philippines is an archipelago made up of how many islands?", ["7,107; 8,641; 6,437"], "7,107", "Philippine Geography"),
+            TrueFalseQuestion("The capital city of the Philippines is Quezon City.", "False (The capital is Manila)", "Philippine Geography"),
+            MultipleChoiceQuestion("The Philippines is divided into how many regions?", ["17", "15", "20"], "17", "Philippine Geography"),
+            MultipleChoiceQuestion("Which region is known as the 'Rice Granary of the Philippines?", ["Ilocos Region", "Central Luzon", "Cagayan Valley"], "Central Luzon", "Philippine Geography"),
+            TrueFalseQuestion("The longest river in the Philippines is the Cagayan River.", "True", "Philippine Geography"),
+            MultipleChoiceQuestion("Baguio City is located in which province?", ["Benguet", "La Union", "Pangasinan"], "Benguet", "Philippine Geography"),
+            MultipleChoiceQuestion("The Chocolate Hills are found in which province?", ["Bohol", "Cebu", "Negros Oriental"], "Bohol", "Philippine Geography"),
+            TrueFalseQuestion("The region of Mindanao is known for theb large volcanic island of Mindanao.", "True", "Philippine Geography"),
+            MultipleChoiceQuestion("The Banaue Rice Terraces, often referred to as the 'Eight Wonder of the World, are located in which region?", ["Cordillera Administrative Region", "Ilocos Region", "Central Luzon"], "Cordillera Administrative Region", "Philippine Geography"),
+            TrueFalseQuestion("Palawan is known as the 'Last Frontier' of the Philippines due to its biodiversity.", "True", "Philippine Geography")
 
             
             #11-20
