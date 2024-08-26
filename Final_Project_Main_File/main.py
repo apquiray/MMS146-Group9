@@ -119,13 +119,16 @@ def main():
             MultipleChoiceQuestion("What is the oldest city in the Philippines?", ["Quezon City", "Cebu City", "Davao City", "Zamboanga City"], "Cebu City", "Philippine Geography"),
             MultipleChoiceQuestion("What is known as the surfing capital of the Philippines?", ["Boracay", "La Union", "Bohol", "Siargao"], "Siargao", "Philippine Geography")
         ]
+        """
+        Add comment Lindayag
+        """
         exam_reviewer = ExamReviewer(questions)
         exam_reviewer.save_questions_to_file()
 
     
-        """
-        Add comment Lindayag 
-        """
+    """
+    Add comment Lindayag 
+    """
     while True:
         category, num_questions, time_limit = exam_reviewer.customize_session()
         exam_reviewer.start_review(student, category, num_questions, time_limit)
@@ -142,17 +145,23 @@ def main():
         """
         while True:
             again = input("\nWould you like to have another review session? Yes or No: ").strip().lower()
+            # Add comment Lindayag
             if again == "yes":
                 print("New Session!")
-                break  # Exit the inner loop and start a new session
+                # This exits the inner loop and start a new session.
+                break
+            # Add comment Lindayag
             elif again == "no":
                 print("You got this! Good luck :)\n")
-                break  # Exit both loops to end the program
+                # This exits both loops to end the program.
+                break  
+            # Add comment Lindayag
             else:
                 print("Invalid input. Please enter 'Yes' or 'No'.")
-    
+        # This exits the outer loop to end the program.
         if again == "no":
-            break  # Exit the outer loop to end the program
-            
+            break  
+
+# Add comment Lindayag
 if __name__ == "__main__":
     main()
