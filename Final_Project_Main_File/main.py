@@ -4,12 +4,24 @@ from TrueFalseQuestion import TrueFalseQuestion
 from MultipleChoiceQuestion import MultipleChoiceQuestion
 
 # Main Program
+"""
+Add comment Reodica
+"""
 def main():
+    """
+    Add comment Reodica
+    """
     student_name = input("Enter your name: ").strip()
     student = Student(student_name)
-
+   
+    """
+    Add comment Reodica
+    """
     exam_reviewer = ExamReviewer([])
 
+    """
+    Add comment Lindayag
+    """
     try:
         exam_reviewer.load_questions_from_file()
         print("Questions loaded from file.")
@@ -109,15 +121,25 @@ def main():
         ]
         exam_reviewer = ExamReviewer(questions)
         exam_reviewer.save_questions_to_file()
+
     
+        """
+        Add comment Lindayag 
+        """
     while True:
         category, num_questions, time_limit = exam_reviewer.customize_session()
         exam_reviewer.start_review(student, category, num_questions, time_limit)
 
+        """
+        Add comment Lindayag
+        """
         student.save_answers_to_file()
         student.save_performance_history_to_file()
         student.view_performance_history()
 
+        """
+        Add comment Lindayag
+        """
         while True:
             again = input("\nWould you like to have another review session? Yes or No: ").strip().lower()
             if again == "yes":
