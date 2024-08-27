@@ -5,17 +5,17 @@ from MultipleChoiceQuestion import MultipleChoiceQuestion
 
 # Main Program
 """
-Add comment Reodica
+Start the main program to run exam reviewer application 
 """
 def main():
     """
-    Add comment Reodica
+    Prompt the user to enter their name and create a new Student object 
     """
     student_name = input("Enter your name: ").strip()
     student = Student(student_name)
    
     """
-    Add comment Reodica
+    Initialize the ExamReviewer with an empty list of exam questions
     """
     exam_reviewer = ExamReviewer([])
 
