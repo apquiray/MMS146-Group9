@@ -43,6 +43,29 @@ def main():
             MultipleChoiceQuestion("The 'Sinulog' festival is held in which city?", ["Cebu City", "Davao City", "Manila"], "Cebu City", "Filipino Culture"),
             MultipleChoiceQuestion("Which Filipino dish is known for its sour taste and is commonly made with tamarind or other sour fruits?", ["Adobo", "Sinigang", "Kare-Kare"], "Sinigang", "Filipino Culture"),
             TrueFalseQuestion("The traditional Filipino 'Pahiyas' festival is celebrated to give thanks for a bountiful harvest.", "True", "Filipino Culture"), 
+            MultipleChoiceQuestion(" A tradition by Filipinos which involves the community coming together to help a family move their house to a new location often by carrying the entire house on bamboo poles?",["Kapihan", "Pakikibaka", "Bayanihan"], "Bayanihan", "Filipino Culture"),
+            TrueFalseQuestion("Filipinos celebrate “Noche Buena”, a festive meal held during Christmas eve. It is usually a feast that families enjoy after the midnight mass.", "True", "Filipino Culture"),
+            TrueFalseQuestion("The traditional Filipino meal involves rice as a staple and it is uncommon to serve a meal without it.", "True", "Filipino Culture"),
+            TrueFalseQuestion("In Filipino culture, it is customary to address elders with “po” and “opo” as a sign of respect.", "True", "Filipino Culture"),
+            MultipleChoiceQuestion("It is a small neighborhood convenience store selling various common goods, usually of daily necessities.", ["Sari-sari store", "Supermarket", "Bangketa"], "Sari-sari store", "Filipino Culture"),
+            TrueFalseQuestion("Flores de Mayo is a celebration in honor of the blessed virgin Mary. This festival is also called Flores De Maria.", "True", "Filipino Culture"),
+            TrueFalseQuestion("There are more than 42,000 major and minor festivals in the Philippines.", "True", "Filipino Culture"),
+            MultipleChoiceQuestion("An annual festival held in Zambales which celebrates the bountiful harvest of mangoes.", ["Manggahan Festival","Pahiyas Festival","Dinamulag Festival"],"Dinamulag Festival", "Filipino Culture"),
+            TrueFalseQuestion("Festivals in the Philippines are solely religious.", "False", "Filipino Culture"),
+            MultipleChoiceQuestion("It is a festival held on the 4th Sunday of January in Iloilo. This festival celebrates and honors the Sto. Nino.", ["T'nalak", "Sandugo Festival", "Dinagyang Festival"], "Dinagyang Festival", "Filipino Culture"),
+            MultipleChoiceQuestion("What Filipino dish consists of rice cooked in coconut milk and served with sweet caramelized toppings?", ["Bico","Sapin-sapin","Kutsinta"], "Bico", "Filipino Culture"),
+            TrueFalseQuestion("Taho is a common snack sold in the Philippines. It is a soybean pudding mixed with sago and tapioca pearls.", "True", "Filipino Culture"),
+            TrueFalseQuestion("Bagoong is a side dish made from fermented leaves.", "False", "Filipino Culture"),
+            MultipleChoiceQuestion("Which of the following is a popular Filipino street food that is made from skewered grilled chicken or pork intestines?", ["Isaw", "Lumpia", "Betamax"], "Isaw", "Filipino Culture"),
+            MultipleChoiceQuestion("In the Filipino dish “Kare-kare”, what is its main ingredient?", ["Chicken", "Beef/Oxtail", "Pork"], "Beef/Oxtail", "Filipino Culture"),
+            TrueFalseQuestion("Jeepneys are considered an icon in the Filipino Culture.",  "True", "Filipino Culture"),
+            TrueFalseQuestion("Tagalog and English is the official National Language of the Philippines.", "True", "Filipino Culture"),
+            TrueFalseQuestion("Majority of the Filipinos in the country are Christians.", "True", "Filipino Culture"),
+            TrueFalseQuestion("The Philippines currently have 120-187 languages.", "True", "Filipino Culture"),
+            TrueFalseQuestion("The Philippine Culture is heavily influenced by the Japanese colonizers.", "False", "Filipino Culture"),
+            TrueFalseQuestion("Filipinos celebrate Christmas for only one day, December 25.", "False", "Filipino Culture"),
+            
+            
 
             # Filipino Pop Culture
             # This set of questions is about Philippine Pop Culture, covering Filipino music, film, television, and famous personalities.
