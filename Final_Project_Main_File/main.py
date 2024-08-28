@@ -5,7 +5,7 @@ from MultipleChoiceQuestion import MultipleChoiceQuestion
 
 # Main Program
 """
-Start the main program to run exam reviewer application 
+Start the main program to run the exam reviewer application 
 """
 def main():
     """
@@ -20,7 +20,8 @@ def main():
     exam_reviewer = ExamReviewer([])
 
     """
-    Add comment Lindayag
+    Attempt to load exam questions from an external file using the ExamReviewer object. If the file is successfully loaded, the questions are ready for review. 
+    If the file is missing, a FileNotFoundError is caught, and the program uses a predefined list of questions instead.
     """
     try:
         exam_reviewer.load_questions_from_file()
@@ -120,48 +121,49 @@ def main():
             MultipleChoiceQuestion("What is known as the surfing capital of the Philippines?", ["Boracay", "La Union", "Bohol", "Siargao"], "Siargao", "Philippine Geography")
         ]
         """
-        Add comment Lindayag
+        These questions will be used for the exam review process.
+        The questions are also saved to a file to ensure persistence.
         """
         exam_reviewer = ExamReviewer(questions)
         exam_reviewer.save_questions_to_file()
 
     
     """
-    Add comment Lindayag 
+    Start a review session and allow the student to customize the session settings such as category, number of questions, and time limit. 
     """
     while True:
         category, num_questions, time_limit = exam_reviewer.customize_session()
         exam_reviewer.start_review(student, category, num_questions, time_limit)
 
         """
-        Add comment Lindayag
+        Save the student's answers and performance history after each review session.
         """
         student.save_answers_to_file()
         student.save_performance_history_to_file()
         student.view_performance_history()
 
         """
-        Add comment Lindayag
+        The program will now prompt the student to decide if they want to have another review session.
         """
         while True:
             again = input("\nWould you like to have another review session? Yes or No: ").strip().lower()
-            # Add comment Lindayag
+            # If the student chooses "yes", the program will start a new session.
             if again == "yes":
                 print("New Session!")
-                # This exits the inner loop and start a new session.
+                # This exits the inner loop and starts a new session.
                 break
-            # Add comment Lindayag
+            # If the student chooses "no", the program will display a motivational message and prepare to end.
             elif again == "no":
                 print("You got this! Good luck :)\n")
                 # This exits both loops to end the program.
                 break  
-            # Add comment Lindayag
+            # If the input is invalid, the program will ask the student to enter "Yes" or "No" again.
             else:
                 print("Invalid input. Please enter 'Yes' or 'No'.")
         # This exits the outer loop to end the program.
         if again == "no":
             break  
 
-# Add comment Lindayag
+# The program checks if it's being run as the main module. If so, it will execute the main function.
 if __name__ == "__main__":
     main()
