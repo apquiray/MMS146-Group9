@@ -6,16 +6,16 @@ import sys
 from TrueFalseQuestion import TrueFalseQuestion
 from MultipleChoiceQuestion import MultipleChoiceQuestion
 
-# This is the max time limit for the timer per question.
+# This is the maximum time limit for the timer per question.
 MAX_TIME_LIMIT = 60
 
-# This declare global variables.
+# This declares global variables.
 timed_out = False
 question_answered = False
 
 # This declares the maximum number of questions per category.
 MAX_QUESTIONS_PER_CATEGORY = {
-    "Filipino Culture": 10,
+    "Filipino Culture": 30,
     "Filipino Pop Culture": 30,
     "Philippine Geography": 30
 }
@@ -55,13 +55,18 @@ class ExamReviewer:
     def generate_random_questions(self, num_questions, category=None):
         # This checks if a category is provided.
         if category:
-            # This filters the questions to only include those that match the specified category.
-            filtered_questions = [q for q in self.questions if q.category == category]
+            if category == "All Categories":
+                # If "All Categories" is selected, this will use all available questions.
+                filtered_questions = self.questions
+            else:
+                # This filters the questions to only include those that match the specified category.
+                filtered_questions = [q for q in self.questions if q.category == category]
         else:
             # If no category is specified, this will use all available questions.
             filtered_questions = self.questions
+
         # This returns a random selection of questions.
-        # The number of questions returned is the smaller of the requested number and the total available filtered questions.
+        # The number of questions returned is the smaller the requested number and the total available filtered questions.
         return random.sample(filtered_questions, min(num_questions, len(filtered_questions)))
 
     # This method is for the user to customize the exam reviewer.
@@ -70,30 +75,37 @@ class ExamReviewer:
         category_map = {
             "1": "Philippine Geography",
             "2": "Filipino Pop Culture",
-            "3": "Filipino Culture"
+            "3": "Filipino Culture",
+            "4": "All Categories"
         }
         # This prints the options for the user to select a topic.
         print("\nSelect a Topic:")
         print("1. Philippine Geography")
         print("2. Filipino Pop Culture")
         print("3. Filipino Culture")
+        print("4. All Categories")
 
-        # This is a loop until the user provides a valid category choice.
+        # This loop continues until the user provides a valid category choice.
         while True:
             # This prompts the user to enter a category number.
             category_choice = input("Please enter the number corresponding to your category: ").strip()
-            # This checks if the entered category is valid or it existed in the category_map.
+            # This checks if the entered category is valid or if it exists in the category_map.
             if category_choice in category_map:
-            # This gets the corresponding category name from the map.
+                # This gets the corresponding category name from the map.
                 category = category_map[category_choice]
-                # This exits the loop once a valid choice is made.
+                # Exit the loop once a valid choice is made.
                 break
             else:
-                # This informs the user of the invalid choice and prompt again.
-                print("Invalid category choice. Please only enter values among 1, 2, 3.")
+                # This informs the user of the invalid choice and prompts again.
+                print("Invalid category choice. Please only enter values among 1, 2, 3, 4.")
         
         # This retrieves the maximum number of questions available for the selected category.
-        max_questions = MAX_QUESTIONS_PER_CATEGORY[category]
+        if category == "All Categories":
+            # Calculate the sum of the maximum questions from all categories.
+            max_questions = sum(MAX_QUESTIONS_PER_CATEGORY.values())
+        else:
+            # This retrieves the maximum number of questions available for the selected category.
+            max_questions = MAX_QUESTIONS_PER_CATEGORY[category]
 
         # This is also a loop until the user provides a valid category choice.
         while True:
@@ -111,7 +123,7 @@ class ExamReviewer:
                     # This also exits the loop once a valid choice is made.
                     break
             except ValueError:
-                # This informs the user of invalid input (not an integer) and prompt again.
+                # This informs the user of invalid input (not an integer) and prompts again.
                 print("Invalid input. Please enter a valid number.")
         
         # Another loop until the user provides a valid time limit per question.
@@ -128,7 +140,7 @@ class ExamReviewer:
                 # Another exit from the loop once a valid time limit is entered.
                 break
             except ValueError:
-                 # This informs the user of invalid input (not a valid positive integer) and prompt again.
+                 # This informs the user of invalid input (not a valid positive integer) and prompts again.
                 print("Invalid input. Please enter a valid number for the time limit.")
 
         # This returns the selected category, number of questions, and time limit to the caller.
@@ -202,7 +214,7 @@ class ExamReviewer:
 
             # This is a loop through each dictionary in the loaded JSON data.
             for q_data in question_data:
-                # This determines the type of question based on the "type" field in the dictionary.
+                # This determines the type of question-based on the "type" field in the dictionary.
                 if q_data["type"] == "TrueFalseQuestion":
                     # This will create a new TrueFalseQuestion object using the data from the dictionary.
                     question = TrueFalseQuestion(
