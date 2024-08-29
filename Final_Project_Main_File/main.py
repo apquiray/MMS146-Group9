@@ -61,7 +61,7 @@ def main():
             MultipleChoiceQuestion("The 'Parol' is a traditional Filipino decoration made during which season?", ["Christmas", "Easter", "All Saints' Day"], "Christmas", "Filipino Culture"),
             MultipleChoiceQuestion("What Filipino dish consists of rice cooked in coconut milk and served with sweet caramelized toppings?", ["Bico", "Sapin-sapin", "Kutsinta"], "Bico", "Filipino Culture"),
             MultipleChoiceQuestion("Which of the following is a popular Filipino street food that is made from skewered grilled chicken or pork intestines?", ["Isaw", "Lumpia", "Betamax"], "Isaw", "Filipino Culture"),
-            MultipleChoiceQuestion("In the Filipino dish 'Kare-Kare', what is its main ingredient?", ["Chicken", "Beef/Oxtail", "Pork"], "Beef/Oxtail", "Filipino Culture"),
+            MultipleChoiceQuestion("In the Filipino dish 'Kare-kare', what is its main ingredient?", ["Chicken", "Beef/Oxtail", "Pork"], "Beef/Oxtail", "Filipino Culture"),
             TrueFalseQuestion("The Sinulog Festival is held in Cebu in honor of the Santo Niño.", "True", "Filipino Culture"),
             TrueFalseQuestion("The Kadayawan Festival is celebrated in Davao to give thanks for a bountiful harvest.", "True", "Filipino Culture"),
             TrueFalseQuestion("The 'Santacruzan' is a religious-historical parade held in May to honor the search for the True Cross by Queen Helena.", "True", "Filipino Culture"),
@@ -75,8 +75,8 @@ def main():
             MultipleChoiceQuestion("Who is the Filipino singer known for the international hit 'Pyramid'?", ["Charice Pempengco", "Sarah Geronimo", "Regine Velasquez"], "Charice Pempengco", "Filipino Pop Culture"),
             MultipleChoiceQuestion("'Buwan' is a hit song by which Filipino artist?", ["Ben&Ben", "Moira Dela Torre", "Juan Karlos Labajo"], "Juan Karlos Labajo", "Filipino Pop Culture"),
             MultipleChoiceQuestion("Which Filipino singer is known as the 'Asia's Songbird'?", ["Sarah Geronimo", "Regine Velasquez", "Zsa Zsa Padilla"], "Regine Velasquez", "Filipino Pop Culture"),
-            MultipleChoiceQuestion("The song 'Tatsulok' by Bamboo is a cover of a song by which original band?", ["Asin", "The Dawn", "Rivermaya"], "Asin", "Filipino Pop Culture"),
-            MultipleChoiceQuestion("Which Filipino film won the Palme d'Or at the Cannes Film Festival in 2000?", ["Oro, Plata, Mata", "Lino Brocka's 'Insiang'", "Brillante Mendoza's 'Kinatay'"], "Brillante Mendoza's 'Kinatay'", "Filipino Pop Culture"),
+            MultipleChoiceQuestion("The song 'Tatsulok' by Bamboo is a cover of a song by which original band?", ["Buklod", "The Dawn", "Rivermaya"], "Buklod", "Filipino Pop Culture"),
+            MultipleChoiceQuestion("Which Filipino film won the Palme d'Or at the Cannes Film Festival in 2000?", ["Oro, Plata, Mata", "Lino Brocka's 'Insiang'", "Raymond Red's 'Anino'"], "Raymond Red's 'Anino'", "Filipino Pop Culture"),
             MultipleChoiceQuestion("Which film franchise stars Vic Sotto as a superhero who wears a blue suit?", ["Darna", "Lastikman", "Enteng Kabisote"], "Enteng Kabisote", "Filipino Pop Culture"),
             TrueFalseQuestion("The song 'Anak' by Freddie Aguilar is one of the most popular Filipino songs globally.", "True", "Filipino Pop Culture"),
             TrueFalseQuestion("The Filipino rock band 'Eraserheads' is often referred to as the 'Beatles of the Philippines.'", "True", "Filipino Pop Culture"),
@@ -95,13 +95,13 @@ def main():
             TrueFalseQuestion("'Maalaala Mo Kaya' is a long-running drama anthology that features true stories of ordinary Filipinos.", "True", "Filipino Pop Culture"),
 
             # 51-60
-            MultipleChoiceQuestion("The Filipino TV series 'Encantandia' features a story about four kingdoms. What are these kingdoms collectively called?", ["Sang'gre", "Diwata", "Lireo"], "Sang'gre", "Filipino Pop Culture"),
+            MultipleChoiceQuestion("The Filipino TV series 'Encantandia' features a story about four kingdoms. Name one of the kingdom called in the story?", ["Sang'gre", "Diwata", "Lireo"], "Lireo", "Filipino Pop Culture"),
             MultipleChoiceQuestion("Who is the Filipino boxer known as 'Pacman' and is also a former Senator?", ["Nonito Donaire", "Manny Pacquiao", "Gerry Peñalosa"], "Manny Pacquiao", "Filipino Pop Culture"),
             MultipleChoiceQuestion("Which Filipino actress is known as the 'Star for All Seasons'?", ["Vilma Santos", "Sharon Cuneta", "Nora Aunor"], "Vilma Santos", "Filipino Pop Culture"),
             MultipleChoiceQuestion("Who became the first-ever Miss Universe from the Philippines in 1969?", ["Pia Wurtzbach", "Gloria Diaz", "Margie Moran"], "Gloria Diaz", "Filipino Pop Culture"),
-            MultipleChoiceQuestion("Jose Rizal, the national hero of the Philippines, wrote which famous novel in Spanish?", ["Noli Me Tangere", "El Filibusterismo", "Florante at Laura"], "Noli Me Tangere", "Filipino Pop Culture"),
+            MultipleChoiceQuestion("Jose Rizal, the national hero of the Philippines, which one of these did he NOT write?", ["Noli Me Tangere", "El Filibusterismo", "Florante at Laura"], "Florante at Laura", "Filipino Pop Culture"),
             MultipleChoiceQuestion("Which Filipino actor became the first Asian to win the Best Actor award at the Venice Film Festival?", ["Dolphy", "Christopher de Leon", "John Arcilla"], "John Arcilla", "Filipino Pop Culture"),
-            MultipleChoiceQuestion("Who was the first Filipino to win a Grammy Award?", ["Lea Salonga", "Bruno Mars", "apl.de.ap"], "Bruno Mars", "Filipino Pop Culture"),
+            MultipleChoiceQuestion("Who was the first Filipino to win a Grammy Award?", ["Lea Salonga", "Larry Ramos", "apl.de.ap"], "Larry Ramos", "Filipino Pop Culture"),
             MultipleChoiceQuestion("Which Filipino fashion designer is known for dressing international celebrities like Beyoncé and Jennifer Lopez?", ["Rajo Laurel", "Michael Cinco", "Monique Lhuilier"], "Michael Cinco", "Filipino Pop Culture"),
             TrueFalseQuestion("Lea Salonga provided the singing voice for two Disney princesses, Jasmine in 'Aladdin' and Mulan in 'Mulan.'", "True", "Filipino Pop Culture"),
             TrueFalseQuestion("The comedian Dolphy is also known as the 'Comedy King' of the Philippines.", "True", "Filipino Pop Culture"),
@@ -109,7 +109,7 @@ def main():
             # Philippine Geography
             # This set of questions is about Philippine Geography, covering landmarks, natural features, and the general geography of the country.
             # 61-70
-            MultipleChoiceQuestion("The Philippines is an archipelago made up of how many islands?", ["7,107", "8,641", "6,437"], "7,107", "Philippine Geography"),
+            MultipleChoiceQuestion("The Philippines is an archipelago made up of how many islands?", ["7,641", "8,641", "6,437"], "7,641", "Philippine Geography"),
             MultipleChoiceQuestion("The Philippines is divided into how many regions?", ["17", "15", "20"], "17", "Philippine Geography"),
             MultipleChoiceQuestion("Which region is known as the 'Rice Granary of the Philippines'?", ["Ilocos Region", "Central Luzon", "Cagayan Valley"], "Central Luzon", "Philippine Geography"),
             MultipleChoiceQuestion("Baguio City is located in which province?", ["Benguet", "La Union", "Pangasinan"], "Benguet", "Philippine Geography"),
