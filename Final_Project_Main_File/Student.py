@@ -10,11 +10,11 @@ class Student:
     def save_answer(self, question_id, answer):
         self.answers[question_id] = answer
 
-    # This is a method about the performance report of the user after the review session.
+    # This is a method for the performance report of the user after the review session.
     def get_performance_report(self, questions, category):
         correct = 0
         total = len(questions)
-    # This is a loop that iterates all the quesions checking if the answer is correct and how many of them are correct.
+    # This is a loop that iterates all the questions checking if the answer is correct and how many of them are correct.
         for q_id, question in enumerate(questions):
             if question.check_answer(self.answers.get(q_id, "")):
                 correct += 1
@@ -31,12 +31,12 @@ class Student:
         print ()
     # This is a loop to display a summary of the report same as the format above.
         print ("-- Current Score Summary --")
-        for key, value in report.items():
+        for key, value in the report.items():
     # This will print what is in the dictionary as well as their corresponding values.
             print(f"{key:20}: {value}")
         self.history.append(report)
 
-    # This is a method about the perfomance of the user for each session.
+    # This is a method for the performance of the user for each session.
     def view_performance_history(self):
         print(f"\nPerformance history for {self.name}:")
     # This loop iterates the history of the user's performance.
@@ -44,7 +44,7 @@ class Student:
     # This will print what sessions is the user currently in.
             print(f"-- Session {i} --")
     # This loop goes through each performance metric within the current session's report.
-            for key, value in report.items():
+            for key, value in the report.items():
     # This will then print the metric's name and value in a formatted manner
                 print (f"{key:20}: {value}")
     
