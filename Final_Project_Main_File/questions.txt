@@ -1,0 +1,802 @@
+[
+    {
+        "question_text": "Which of the following is considered the national hero of the Philippines?",
+        "correct_answer": "Jose Rizal",
+        "category": "Filipino Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Jose Rizal",
+            "Andres Bonifacio",
+            "Emilio Aguinaldo"
+        ]
+    },
+    {
+        "question_text": "The 'Ati-Atihan' festival is celebrated in honor of which saint?",
+        "correct_answer": "Santo Ni\u00f1o",
+        "category": "Filipino Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Santo Ni\u00f1o",
+            "San Isidro",
+            "San Miguel"
+        ]
+    },
+    {
+        "question_text": "The 'Sinulog' festival is held in which city?",
+        "correct_answer": "Cebu City",
+        "category": "Filipino Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Cebu City",
+            "Davao City",
+            "Manila"
+        ]
+    },
+    {
+        "question_text": "Which Filipino dish is known for its sour taste and is commonly made with tamarind or other sour fruits?",
+        "correct_answer": "Sinigang",
+        "category": "Filipino Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Adobo",
+            "Sinigang",
+            "Kare-Kare"
+        ]
+    },
+    {
+        "question_text": "The 'Mano' gesture is a sign of respect where the younger person takes the hand of an elder and touches it to their forehead.",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The traditional Filipino dress for women is called the 'Barong Tagalog.'",
+        "correct_answer": "False",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The Bahay Kubo is a traditional Filipino house made of bamboo and nipa palm.",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The 'Lechon' is a traditional Filipino dish made from roasted chicken.",
+        "correct_answer": "False",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The Filipino festival 'Panagbenga' is also known as the Flower Festival and is celebrated in Baguio City.",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The traditional Filipino 'Pahiyas' festival is celebrated to give thanks for a bountiful harvest.",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "Which of the following dishes is a Filipino dessert made from sticky rice, coconut milk, and sugar?",
+        "correct_answer": "Bibingka",
+        "category": "Filipino Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Halo-Halo",
+            "Leche Flan",
+            "Bibingka"
+        ]
+    },
+    {
+        "question_text": "'Adobo' is a popular Filipino dish made with which main ingredients?",
+        "correct_answer": "Chicken or Pork",
+        "category": "Filipino Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Chicken or Pork",
+            "Rice and Fish",
+            "Vegetables"
+        ]
+    },
+    {
+        "question_text": "Which of the following is a Filipino cultural practice during Christmas where children go from house to house singing carols?",
+        "correct_answer": "Panunuluyan",
+        "category": "Filipino Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Simbang Gabi",
+            "Pabasa",
+            "Panunuluyan"
+        ]
+    },
+    {
+        "question_text": "The dish 'Sinigang' is typically sour due to the use of tamarind or other souring agents.",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "'Balut' is a fertilized duck egg that is boiled and eaten as a popular street food in the Philippines.",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "'Lechon' refers to a roasted pig, which is a centerpiece in Filipino celebrations.",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The 'Bayanihan' spirit is the Filipino practice of communal unity and cooperation.",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "'Pamamanhikan' is the traditional Filipino practice where the groom's family visits the bride's family to formally ask for her hand in marriage.",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The 'Simbang Gabi' is a series of nine dawn masses leading up to Christmas.",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "'Harana' is a traditional Filipino courtship practice where a man serenades a woman outside her window.",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "Which festival in the Philippines is known for its colorful and elaborate masks?",
+        "correct_answer": "MassKara",
+        "category": "Filipino Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Pahiyas",
+            "MassKara",
+            "Pintados"
+        ]
+    },
+    {
+        "question_text": "The 'Parol' is a traditional Filipino decoration made during which season?",
+        "correct_answer": "Christmas",
+        "category": "Filipino Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Christmas",
+            "Easter",
+            "All Saints' Day"
+        ]
+    },
+    {
+        "question_text": "What Filipino dish consists of rice cooked in coconut milk and served with sweet caramelized toppings?",
+        "correct_answer": "Bico",
+        "category": "Filipino Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Bico",
+            "Sapin-sapin",
+            "Kutsinta"
+        ]
+    },
+    {
+        "question_text": "Which of the following is a popular Filipino street food that is made from skewered grilled chicken or pork intestines?",
+        "correct_answer": "Isaw",
+        "category": "Filipino Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Isaw",
+            "Lumpia",
+            "Betamax"
+        ]
+    },
+    {
+        "question_text": "In the Filipino dish 'Kare-kare', what is its main ingredient?",
+        "correct_answer": "Beef/Oxtail",
+        "category": "Filipino Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Chicken",
+            "Beef/Oxtail",
+            "Pork"
+        ]
+    },
+    {
+        "question_text": "The Sinulog Festival is held in Cebu in honor of the Santo Ni\u00f1o.",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The Kadayawan Festival is celebrated in Davao to give thanks for a bountiful harvest.",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The 'Santacruzan' is a religious-historical parade held in May to honor the search for the True Cross by Queen Helena.",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "Taho is a common snack sold in the Philippines. It is a soybean pudding mixed with sago and tapioca pearls.",
+        "correct_answer": "True",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "Bagoong is a side dish made from fermented leaves.",
+        "correct_answer": "False",
+        "category": "Filipino Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "Who is known as the 'King of Philippine Movies'?",
+        "correct_answer": "Fernando Poe Jr.",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Dolphy",
+            "Fernando Poe Jr.",
+            "Nora Aunor"
+        ]
+    },
+    {
+        "question_text": "Who is the Filipino singer known for the international hit 'Pyramid'?",
+        "correct_answer": "Charice Pempengco",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Charice Pempengco",
+            "Sarah Geronimo",
+            "Regine Velasquez"
+        ]
+    },
+    {
+        "question_text": "'Buwan' is a hit song by which Filipino artist?",
+        "correct_answer": "Juan Karlos Labajo",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Ben&Ben",
+            "Moira Dela Torre",
+            "Juan Karlos Labajo"
+        ]
+    },
+    {
+        "question_text": "Which Filipino singer is known as the 'Asia's Songbird'?",
+        "correct_answer": "Regine Velasquez",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Sarah Geronimo",
+            "Regine Velasquez",
+            "Zsa Zsa Padilla"
+        ]
+    },
+    {
+        "question_text": "The song 'Tatsulok' by Bamboo is a cover of a song by which original band?",
+        "correct_answer": "Asin",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Asin",
+            "The Dawn",
+            "Rivermaya"
+        ]
+    },
+    {
+        "question_text": "Which Filipino film won the Palme d'Or at the Cannes Film Festival in 2000?",
+        "correct_answer": "Brillante Mendoza's 'Kinatay'",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Oro, Plata, Mata",
+            "Lino Brocka's 'Insiang'",
+            "Brillante Mendoza's 'Kinatay'"
+        ]
+    },
+    {
+        "question_text": "Which film franchise stars Vic Sotto as a superhero who wears a blue suit?",
+        "correct_answer": "Enteng Kabisote",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Darna",
+            "Lastikman",
+            "Enteng Kabisote"
+        ]
+    },
+    {
+        "question_text": "The song 'Anak' by Freddie Aguilar is one of the most popular Filipino songs globally.",
+        "correct_answer": "True",
+        "category": "Filipino Pop Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The Filipino rock band 'Eraserheads' is often referred to as the 'Beatles of the Philippines.'",
+        "correct_answer": "True",
+        "category": "Filipino Pop Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The film 'Himala,' starring Nora Aunor, is considered one of the greatest Filipino films of all time.",
+        "correct_answer": "True",
+        "category": "Filipino Pop Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The film 'Kita Kita' is a romantic comedy set in which country?",
+        "correct_answer": "Japan",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Japan",
+            "Italy",
+            "France"
+        ]
+    },
+    {
+        "question_text": "Who is the director of the critically acclaimed film 'Heneral Luna'?",
+        "correct_answer": "Jerrold Tarog",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Jerrold Tarog",
+            "Lav Diaz",
+            "Brillante Mendoza"
+        ]
+    },
+    {
+        "question_text": "Who starred as the lead role in the 2018 film 'Goyo: Ang Batang Heneral'?",
+        "correct_answer": "Paulo Avelino",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Enrique Gil",
+            "Alden Richards",
+            "Paulo Avelino"
+        ]
+    },
+    {
+        "question_text": "The 2001 Filipino film 'Dekada '70' is based on a novel written by which author?",
+        "correct_answer": "Lualhati Bautista",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Lualhati Bautista",
+            "F. Sionil Jos\u00e9",
+            "Ricky Lee"
+        ]
+    },
+    {
+        "question_text": "Which Filipino TV drama featured the love team known as 'AlDub'?",
+        "correct_answer": "Kalyeserye",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Pangako Sa 'Yo",
+            "Kalyeserye",
+            "Mara Clara"
+        ]
+    },
+    {
+        "question_text": "'Ang Probinsyano,' starring Coco Martin, is based on a 1997 film by which actor?",
+        "correct_answer": "Fernando Poe Jr.",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Robin Padilla",
+            "Fernando Poe Jr.",
+            "Rudy Fernandez"
+        ]
+    },
+    {
+        "question_text": "'FPJ's Ang Probinsyano' celebrated its 1000th episode in which year?",
+        "correct_answer": "2019",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "2018",
+            "2019",
+            "2020"
+        ]
+    },
+    {
+        "question_text": "Which Filipino actress starred as 'Marimar' in the 2007 Philippine adaptation of the Mexican telenovela?",
+        "correct_answer": "Marian Rivera",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Marian Rivera",
+            "Angel Locsin",
+            "Anne Curtis"
+        ]
+    },
+    {
+        "question_text": "'Eat Bulaga!' is the longest-running noontime variety show in the Philippines.",
+        "correct_answer": "True",
+        "category": "Filipino Pop Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "'Maalaala Mo Kaya' is a long-running drama anthology that features true stories of ordinary Filipinos.",
+        "correct_answer": "True",
+        "category": "Filipino Pop Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The Filipino TV series 'Encantandia' features a story about four kingdoms. What are these kingdoms collectively called?",
+        "correct_answer": "Sang'gre",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Sang'gre",
+            "Diwata",
+            "Lireo"
+        ]
+    },
+    {
+        "question_text": "Who is the Filipino boxer known as 'Pacman' and is also a former Senator?",
+        "correct_answer": "Manny Pacquiao",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Nonito Donaire",
+            "Manny Pacquiao",
+            "Gerry Pe\u00f1alosa"
+        ]
+    },
+    {
+        "question_text": "Which Filipino actress is known as the 'Star for All Seasons'?",
+        "correct_answer": "Vilma Santos",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Vilma Santos",
+            "Sharon Cuneta",
+            "Nora Aunor"
+        ]
+    },
+    {
+        "question_text": "Who became the first-ever Miss Universe from the Philippines in 1969?",
+        "correct_answer": "Gloria Diaz",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Pia Wurtzbach",
+            "Gloria Diaz",
+            "Margie Moran"
+        ]
+    },
+    {
+        "question_text": "Jose Rizal, the national hero of the Philippines, wrote which famous novel in Spanish?",
+        "correct_answer": "Noli Me Tangere",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Noli Me Tangere",
+            "El Filibusterismo",
+            "Florante at Laura"
+        ]
+    },
+    {
+        "question_text": "Which Filipino actor became the first Asian to win the Best Actor award at the Venice Film Festival?",
+        "correct_answer": "John Arcilla",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Dolphy",
+            "Christopher de Leon",
+            "John Arcilla"
+        ]
+    },
+    {
+        "question_text": "Who was the first Filipino to win a Grammy Award?",
+        "correct_answer": "Bruno Mars",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Lea Salonga",
+            "Bruno Mars",
+            "apl.de.ap"
+        ]
+    },
+    {
+        "question_text": "Which Filipino fashion designer is known for dressing international celebrities like Beyonc\u00e9 and Jennifer Lopez?",
+        "correct_answer": "Michael Cinco",
+        "category": "Filipino Pop Culture",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Rajo Laurel",
+            "Michael Cinco",
+            "Monique Lhuilier"
+        ]
+    },
+    {
+        "question_text": "Lea Salonga provided the singing voice for two Disney princesses, Jasmine in 'Aladdin' and Mulan in 'Mulan.'",
+        "correct_answer": "True",
+        "category": "Filipino Pop Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The comedian Dolphy is also known as the 'Comedy King' of the Philippines.",
+        "correct_answer": "True",
+        "category": "Filipino Pop Culture",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The Philippines is an archipelago made up of how many islands?",
+        "correct_answer": "7,107",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "7,107",
+            "8,641",
+            "6,437"
+        ]
+    },
+    {
+        "question_text": "The Philippines is divided into how many regions?",
+        "correct_answer": "17",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "17",
+            "15",
+            "20"
+        ]
+    },
+    {
+        "question_text": "Which region is known as the 'Rice Granary of the Philippines'?",
+        "correct_answer": "Central Luzon",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Ilocos Region",
+            "Central Luzon",
+            "Cagayan Valley"
+        ]
+    },
+    {
+        "question_text": "Baguio City is located in which province?",
+        "correct_answer": "Benguet",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Benguet",
+            "La Union",
+            "Pangasinan"
+        ]
+    },
+    {
+        "question_text": "The Chocolate Hills are found in which province?",
+        "correct_answer": "Bohol",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Bohol",
+            "Cebu",
+            "Negros Oriental"
+        ]
+    },
+    {
+        "question_text": "The Banaue Rice Terraces, often referred to as the 'Eight Wonder of the World,' are located in which region?",
+        "correct_answer": "Cordillera Administrative Region",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Cordillera Administrative Region",
+            "Ilocos Region",
+            "Central Luzon"
+        ]
+    },
+    {
+        "question_text": "The capital city of the Philippines is Quezon City.",
+        "correct_answer": "False (The capital is Manila)",
+        "category": "Philippine Geography",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The longest river in the Philippines is the Cagayan River.",
+        "correct_answer": "True",
+        "category": "Philippine Geography",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The region of Mindanao is known for the large volcanic island of Mindanao.",
+        "correct_answer": "True",
+        "category": "Philippine Geography",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "Palawan is known as the 'Last Frontier' of the Philippines due to its biodiversity.",
+        "correct_answer": "True",
+        "category": "Philippine Geography",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "Mount Apo, the highest peak in the Philippines, is located in which island?",
+        "correct_answer": "Mindanao",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Luzon",
+            "Visayas",
+            "Mindanao"
+        ]
+    },
+    {
+        "question_text": "Which island in the Philippines is known for its white sand beaches and is a popular tourist destination?",
+        "correct_answer": "Boracay",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Boracay",
+            "Siargao",
+            "Camiguin"
+        ]
+    },
+    {
+        "question_text": "The Hundred Islands National Park is located in which province?",
+        "correct_answer": "Pangasinan",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Pangasinan",
+            "Zambales",
+            "La Union"
+        ]
+    },
+    {
+        "question_text": "Which of the following is a major agricultural product of the Philippines?",
+        "correct_answer": "Rice",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Rice",
+            "Wheat",
+            "Barley"
+        ]
+    },
+    {
+        "question_text": "Which Philippine island is the largest by land area?",
+        "correct_answer": "Luzon",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Luzon",
+            "Mindanao",
+            "Samar"
+        ]
+    },
+    {
+        "question_text": "The Taal Volcano is located within a lake in the province of Batangas.",
+        "correct_answer": "True",
+        "category": "Philippine Geography",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The Puerto Princesa Subterranean River is one of the New 7 Wonders of Nature.",
+        "correct_answer": "True",
+        "category": "Philippine Geography",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The Philippines is part of the Pacific Ring of Fire, making it prone to earthquakes and volcanic eruptions.",
+        "correct_answer": "True",
+        "category": "Philippine Geography",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The Philippines has a tropical maritime climate, characterized by high temperatures, high humidity, and abundant rainfall.",
+        "correct_answer": "True",
+        "category": "Philippine Geography",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The Sierra Madre is the longest mountain range in the Philippines.",
+        "correct_answer": "True",
+        "category": "Philippine Geography",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "What is the primary source of energy in the Philippines?",
+        "correct_answer": "Geothermal",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Solar",
+            "Wind",
+            "Hydropower",
+            "Geothermal"
+        ]
+    },
+    {
+        "question_text": "What province is found in the northernmost part of the Philippines?",
+        "correct_answer": "Batanes",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Ilocos",
+            "Cagayan",
+            "Zamboanga",
+            "Batanes"
+        ]
+    },
+    {
+        "question_text": "What is the capital of the province of Cebu?",
+        "correct_answer": "Cebu City",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Lapu-Lapu City",
+            "Mandaue City",
+            "Cebu City",
+            "Talisay City"
+        ]
+    },
+    {
+        "question_text": "What is the oldest city in the Philippines?",
+        "correct_answer": "Cebu City",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Quezon City",
+            "Cebu City",
+            "Davao City",
+            "Zamboanga City"
+        ]
+    },
+    {
+        "question_text": "What is known as the surfing capital of the Philippines?",
+        "correct_answer": "Siargao",
+        "category": "Philippine Geography",
+        "type": "MultipleChoiceQuestion",
+        "options": [
+            "Boracay",
+            "La Union",
+            "Bohol",
+            "Siargao"
+        ]
+    },
+    {
+        "question_text": "The Philippines experiences an average of 20 typhoons each year.",
+        "correct_answer": "True",
+        "category": "Philippine Geography",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The Philippines is one of the top producers of coconut products in the world.",
+        "correct_answer": "True",
+        "category": "Philippine Geography",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "Mount Mayon is known for its almost perfect cone shape.",
+        "correct_answer": "True",
+        "category": "Philippine Geography",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The capital of Negros Oriental is Bacolod City.",
+        "correct_answer": "False",
+        "category": "Philippine Geography",
+        "type": "TrueFalseQuestion"
+    },
+    {
+        "question_text": "The island of Palawan is located in the Visayas region.",
+        "correct_answer": "False",
+        "category": "Philippine Geography",
+        "type": "TrueFalseQuestion"
+    }
+]
