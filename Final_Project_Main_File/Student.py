@@ -31,7 +31,7 @@ class Student:
         print ()
     # This is a loop to display a summary of the report same as the format above.
         print ("-- Current Score Summary --")
-        for key, value in the report.items():
+        for key, value in report.items():
     # This will print what is in the dictionary as well as their corresponding values.
             print(f"{key:20}: {value}")
         self.history.append(report)
@@ -44,7 +44,7 @@ class Student:
     # This will print what sessions is the user currently in.
             print(f"-- Session {i} --")
     # This loop goes through each performance metric within the current session's report.
-            for key, value in the report.items():
+            for key, value in report.items():
     # This will then print the metric's name and value in a formatted manner
                 print (f"{key:20}: {value}")
     
