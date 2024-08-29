@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 '''
-A sentence worded or expressed so as to elicit information.
+A sentence is worded or expressed to elicit information.
 '''
 class Question(ABC):
 
@@ -35,7 +35,7 @@ class Question(ABC):
     """
     A dictionary containing the attributes of the object question
     Making it easier to store or retrieve information on the questions
-    This method creates a dictionary containing the attributes of the object question.
+    This method creates a dictionary containing the characteristics of the object question.
     Making it easier to store or retrieve information on the questions.
     """   
     def to_dict(self):
