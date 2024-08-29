@@ -24,16 +24,16 @@ class MultipleChoiceQuestion(Question):
     """
     def check_answer(self, answer):
         if not answer:
-            # This return False if no answer was provided.
+            # This return is false if no answer is provided.
             return False  
         try:
             index = ord(answer.upper()) - 65
-            # This ensure the index is within the valid range.
+            # This ensures the index is within the valid range.
             if 0 <= index < len(self.options):  
                 selected_option = self.options[index]
                 return selected_option == self.correct_answer
             else:
-                # This return False if the index is out of range.
+                # This returns False if the index is out of range.
                 return False  
         except (ValueError, IndexError):
             return False
