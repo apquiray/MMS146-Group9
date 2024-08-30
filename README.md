@@ -22,10 +22,10 @@ READ ME
 2. Enter the Name of the User.
 
 3. Select a Topic between the Four Categories:
- # Philippine Geography
- # Filipino Pop Culture
- # Filipino Culture
- # All Categories
+   - Philippine Geography
+   - Filipino Pop Culture
+   - Filipino Culture
+   - All Categories
 - The user will be given a choice between four categories. If the user inputs a wrong character or number, the program will send a message saying the input is invalid and allow the user to enter an input again.
 
 4. Number of Questions
